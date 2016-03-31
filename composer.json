@@ -1,0 +1,37 @@
+{
+  "name": "jeffli/gram-core",
+  "description": "",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://github.com/jianfuli/gram-object",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeff Li",
+      "email": "jeffli.cn@outlook.com",
+      "homepage": "http://jianfu.li/",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "phpunit/phpunit": "5.*",
+    "psr/log": "1.*",
+    "phpcollection/phpcollection": "0.4.*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Gram\\Core\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}
