@@ -1,9 +1,9 @@
 <?php
-namespace Gram\Exception;
+namespace Gram\Core\Exception;
 
 /**
  * Class NotImplementedException
- * @package Gram\Exception
+ * @package Gram\Core\Exception
  */
 class NotImplementedException extends \InvalidArgumentException
 {

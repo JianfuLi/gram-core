@@ -1,9 +1,9 @@
 <?php
-namespace Gram\Object\Mapper;
+namespace Gram\Core\Object\Mapper;
 
 /**
  * Class ObjectMapper
- * @package Gram\Object\Mapper
+ * @package Gram\Core\Object\Mapper
  */
 class ObjectMapper implements MapperInterface
 {

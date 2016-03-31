@@ -1,5 +1,5 @@
 {
-  "name": "jeffli/gram-object",
+  "name": "jeffli/gram-core",
   "description": "",
   "type": "library",
   "keywords": [],
@@ -15,18 +15,20 @@
   ],
   "require": {
     "php": ">=5.6",
-    "phpunit/phpunit": "5.*"
+    "phpunit/phpunit": "5.*",
+    "psr/log": "1.*",
+    "phpcollection/phpcollection": "0.4.*"
   },
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Gram\\": "src/"
+      "Gram\\Core\\": "src/"
     }
   },
   "repositories": [
     {
       "type": "composer",
-      "url": "http://packagist.phpcomposer.com"
+      "url": "https://packagist.phpcomposer.com"
     },
     {
       "packagist": false

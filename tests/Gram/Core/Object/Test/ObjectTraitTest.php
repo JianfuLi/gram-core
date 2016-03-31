@@ -1,8 +1,8 @@
 <?php
-namespace Gram\Object\Test;
+namespace Gram\Core\Object\Test;
 
-use Gram\Object\Mapper\MapperInterface;
-use Gram\Object\ObjectTrait;
+use Gram\Core\Object\Mapper\MapperInterface;
+use Gram\Core\Object\ObjectTrait;
 
 class UnitTestObject
 {
@@ -52,7 +52,7 @@ class UnitTestObject
             ->map('array1', 'array2')->arr()
             ->map('datetime1', 'datetime2')->dateTime()
             ->map('array3', 'array4', 'array5')->instance('ArrayObject')
-            ->map('instance1')->instance('Gram\Object\Test\UnitTestObject');
+            ->map('instance1')->instance('Gram\Core\Object\Test\UnitTestObject');
     }
 }
 

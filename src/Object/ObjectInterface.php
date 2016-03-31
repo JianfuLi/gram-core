@@ -1,9 +1,9 @@
 <?php
-namespace Gram\Object;
+namespace Gram\Core\Object;
 
 /**
  * Interface EntityInterface
- * @package Gram\Object
+ * @package Gram\Core\Object
  */
 interface ObjectInterface extends \JsonSerializable
 {

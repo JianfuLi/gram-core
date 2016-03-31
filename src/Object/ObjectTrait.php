@@ -1,15 +1,15 @@
 <?php
-namespace Gram\Object;
+namespace Gram\Core\Object;
 
 use \DateTime;
 use \ArrayObject;
-use Gram\Object\Mapper\ObjectMapper;
-use Gram\Object\Mapper\MapperInterface;
-use Gram\Exception\NotImplementedException;
+use Gram\Core\Object\Mapper\ObjectMapper;
+use Gram\Core\Object\Mapper\MapperInterface;
+use Gram\Core\Exception\NotImplementedException;
 
 /**
  * Class ObjectTrait
- * @package Gram\Object
+ * @package Gram\Core\Object
  */
 trait ObjectTrait
 {
